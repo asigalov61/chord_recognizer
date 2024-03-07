@@ -30,7 +30,7 @@ result
 
 [![Open In Colab][colab-badge]][colab-notebook1]
 
-[colab-notebook1]: <https://colab.research.google.com/github/asigalov61/chords_recognizer/blob/main/example.ipynb>
+[colab-notebook1]: <https://colab.research.google.com/github/asigalov61/chord_recognizer/blob/main/example.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
 ***
