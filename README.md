@@ -26,5 +26,14 @@ result
 
 ***
 
+## Try it in Google Colab
+
+[![Open In Colab][colab-badge]][colab-notebook1]
+
+[colab-notebook1]: <https://colab.research.google.com/github/asigalov61/chords_recognizer/blob/main/example.ipynb>
+[colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
+
+***
+
 ### Project Los Angeles
 ### Tegridy Code 2024
