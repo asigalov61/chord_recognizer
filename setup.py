@@ -8,10 +8,8 @@ setup(
     author='Yikai Liao',
     author_email='your.email@example.com',
     license='MIT',
-    packages=find_packages(),  # Automatically find all packages
-    package_data={
-        '': ['test_data/*'],  # Include all files in test_data directory
-    },
+    packages=find_packages(),
+    include_package_data=True,  # This line includes data files specified in MANIFEST.in
     install_requires=[
         'mido',  # Add any other dependencies here
     ],
