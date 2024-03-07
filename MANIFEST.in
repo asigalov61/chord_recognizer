@@ -1,1 +1,2 @@
 recursive-include test_data *
+include test_data
