@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+from glob import glob
 
 setup(
     name='chords_recognizer',
@@ -9,6 +10,9 @@ setup(
     author_email='your.email@example.com',
     license='MIT',
     packages=find_packages(),  # Automatically find all packages
+    data_files=[
+        ('target_directory', glob('test_data/*'))
+    ],
     install_requires=[
         'mido',  # Add any other dependencies here
     ],
