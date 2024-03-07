@@ -6,6 +6,7 @@
 
 ```
 !pip install git+https://github.com/asigalov61/chord_recognizer.git
+!wget https://github.com/asigalov61/chord_recognizer/raw/master/test_data/17%20Moments%20of%20Spring.mid
 ```
 
 ***
@@ -13,8 +14,6 @@
 ## Usage example
 
 ```
-!wget https://github.com/asigalov61/chord_recognizer/raw/master/test_data/17%20Moments%20of%20Spring.mid
-
 import os
 from chord_recognizer import recognize_chords
 
